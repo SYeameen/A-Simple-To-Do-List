@@ -1,0 +1,56 @@
+
+.container{
+    width: 300px;
+    margin: 0 auto;
+}
+
+h1{
+    margin-top: 4rem;
+    font-size: 4rem;
+    color: cadetblue;
+}
+
+h3{
+    margin-top: 3rem;
+    color: red;
+}
+
+i{
+    cursor: pointer;
+}
+
+
+.form{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.form-control{
+border: none;
+border-bottom: 1px solid black;
+outline: none;
+text-transform: capitalize;
+}
+
+
+.form  input {
+    width: 100%;
+}
+
+.todo-list li{
+    margin-top:  10px;
+    list-style: none;
+}
+.todo-list li div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.todo-list button{
+   margin-left:  5px;
+}
